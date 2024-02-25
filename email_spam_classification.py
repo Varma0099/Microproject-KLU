@@ -6,7 +6,8 @@ from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 # from nltk.tokenize import word_tokenize
 # from sklearn.feature_extraction.text import CountVectorizer 
-
+import nltk
+nltk.download('stopwords')
 
 
 def cleanup_text(message):
